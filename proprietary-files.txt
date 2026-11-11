@@ -1,0 +1,100 @@
+# Unpinned blobs from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+
+# Audio 
+-vendor/lib/hw/audio.primary.exynos850.so
+-vendor/lib/libaudioproxy.so
+-vendor/lib/librecordalive.so
+-vendor/lib/soundfx/libaudioeffectoffload.so
+-vendor/lib/soundfx/libswdap.so
+-vendor/lib64/soundfx/libaudioeffectoffload.so
+vendor/etc/dolby/dax-default.xml
+vendor/etc/floating_feature.xml
+
+# Sound Effects
+vendor/lib/lib_SoundAlive_play_plus_ver400.so
+vendor/lib/soundfx/libmysound.so
+vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+system/system/lib/libsamsungSoundbooster_plus_legacy.so
+system/system/lib64/libsamsungSoundbooster_plus_legacy.so
+vendor/lib/soundfx/libaudiosaplus_sec.so
+vendor/etc/SoundBoosterParam.txt
+vendor/lib64/lib_SoundAlive_play_plus_ver400.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libmysound.so
+vendor/lib64/soundfx/libaudiosaplus_sec.so
+
+# Audio Firmware 
+vendor/firmware/AP_AUDIO_SLSI.bin
+vendor/firmware/APDV_AUDIO_SLSI.bin
+
+# Bluetooth Firmware 
+vendor/etc/wifi/mx140_bt.hcf
+
+# Camera dependencies 
+-vendor/lib/libexynoscamera3.so
+-vendor/lib/libexynoscamera_tdnr_plugin.so
+-vendor/lib64/libexynoscamera3.so
+-vendor/lib64/libexynoscamera_tdnr_plugin.so
+
+# Camera Firmware 
+vendor/firmware/setfile_gc02m1.bin
+vendor/firmware/setfile_gc02m1_macro.bin
+vendor/firmware/setfile_gc5035.bin
+vendor/firmware/setfile_gm2.bin
+vendor/firmware/setfile_sr846.bin
+vendor/firmware/tdnr_GC02M1.json
+vendor/firmware/tdnr_GC5035.json
+vendor/firmware/tdnr_S5KGM2.json
+vendor/firmware/tdnr_SR846.json
+
+# HWC 
+-vendor/lib/libExynosHWCService.so
+-vendor/lib/libdrmresource.so
+-vendor/lib/libexynosdisplay.so
+-vendor/lib64/libExynosHWCService.so
+-vendor/lib64/libdrmresource.so
+-vendor/lib64/libexynosdisplay.so
+
+# OMX Firmware
+vendor/firmware/is_lib.bin
+vendor/firmware/is_rta.bin
+
+# TEEGRIS
+vendor/tee/00000000-0000-0000-0000-000000534b4d
+vendor/tee/00000000-0000-0000-0000-0000534b504d
+vendor/tee/00000000-0000-0000-0000-0050524f4341
+vendor/tee/00000000-0000-0000-0000-0053545354ab
+vendor/tee/00000000-0000-0000-0000-46494e474502
+vendor/tee/00000000-0000-0000-0000-474154454b45
+vendor/tee/00000000-0000-0000-0000-4b45594d5354
+vendor/tee/00000000-0000-0000-0000-505256544545
+vendor/tee/00000000-0000-0000-0000-6b6e78677564
+
+# Wi-Fi
+vendor/etc/wifi/hydra_config.sdb
+vendor/etc/wifi/mx140_t_wlan.hcf
+vendor/etc/wifi/mx140_t_wlan_t.hcf
+vendor/etc/wifi/mx140_wlan.hcf
+vendor/etc/wifi/mx140_wlan_sw.hcf
+vendor/etc/wifi/mx140_wlan_t.hcf
+
+# Audio - from m12nsxx-user 13 TP1A.220624.014 M127FXXS9DXJ1 release-keys
+vendor/etc/mixer_gains.xml
+vendor/firmware/aw8896_cfg.bin
+vendor/firmware/aw8896_fw_d.bin
+vendor/firmware/aw8896_fw_e.bin
+vendor/firmware/aw8896_reg.bin
+
+# NFC - from m12nsxx-user 13 TP1A.220624.014 M127FXXS9DXJ1 release-keys
+vendor/bin/hw/sec.android.hardware.nfc@1.2-service|efdc896f3f3a3e63417d4a7be1aaf87020485095
+vendor/etc/init/init.nfc.samsung.rc|33e9131b8cf58ba30e6248b3b65b918a3d2f67e2
+vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc|d3ac68ee975b18276f574ac1055f463f77e1afdc
+vendor/etc/nfc/sec_s3nrn4v_hwreg.bin|6511c66191f96cc7e60641e9d9a88d22be83eddb
+vendor/etc/nfc/sec_s3nrn4v_swreg.bin|f08512ed32650e556aeb12277b4058b20b7aee11
+-vendor/etc/vintf/manifest/sec.android.hardware.nfc@1.2-service.xml|07d05eedf2f8d102f92825802b90ac1365ec6418|ed01982f3ec9e5bf4d03637bd4a92d70539a2ea0
+vendor/firmware/nfc/sec_s3nrn4v_firmware.bin|fa9e9083e9d727e89c6806808e9317cb54740985
+vendor/lib64/android.hardware.nfc@1.0.so|7a9c0955cda604d450c3986f92c0903148207846
+vendor/lib64/android.hardware.nfc@1.1.so|2df6c45a113cb900b471a32ed027b1f65ee4c36f
+vendor/lib64/android.hardware.nfc@1.2.so|3c5b4da1646a6d784fbbc0371f798f3c0b025079
+vendor/lib64/nfc_nci_sec.so|313079401a0cd830cb3e555a1eded4629dd49001

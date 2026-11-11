@@ -1,0 +1,8 @@
+[
+    {
+        "remote": "ykqoyzobliydfnzfdw-cmyk",
+        "repository": "android_device_samsung_m12-common",
+        "target_path": "device/samsung/m12-common",
+        "branch": "lineage-21"
+    }
+]
